@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.header{
+    display:flex;
+}
+
+#add_article{
+    display:flex;
+    text-align:left;
+}
+
+#navbar{
+    width: 600px;
+    margin-top:20px;
+}

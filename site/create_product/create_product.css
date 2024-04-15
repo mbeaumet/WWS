@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header{
+    display:flex;
+}   */
+
+#logo{
+    margin-right: 300px;
+}
+
+.logo{
+    width: 180px;
+    height:160px;
+}
+
+.title_form{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    background-color: white;
+    border-radius: 10px;
+    width:310px;
+    height: 430px;
+    margin-top:10px;
+}
+
+#marge_form{
+    margin-bottom:10px;
+    margin-left:10px;
+}
+
+.size_input_color{
+    width: 160px;
+}
+
+.size_input_brand{
+    width: 106px;
+}
+
+.size_input_state{
+    width:194px;
+}
+
+.size_input_stock{
+    width:185px;
+}
+
+.size_input_size{
+    width:185px;
+}
+
+.size_input_price{
+    width:195px
+}
+
+#btn{
+    width:187px;
+}

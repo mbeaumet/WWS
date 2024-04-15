@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*  
+
+header{
+    display:flex;
+} */
+
+.logo{
+
+    justify-content: left;
+}
+
+.title{
+    justify-content: center;   
+}
+
+h3{
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    margin-left:15px;
+    margin-bottom:0px;
+}
+
+.btn-link{
+    color:black !important;
+}
+
+#card{
+    margin-left:11px;
+}
+
+textarea{
+    height:30px;
+    width:300px;
+    margin-top:20px;
+}
+
+#accordion_menu{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 20px !important;
+    margin-left:28px !important;
+}

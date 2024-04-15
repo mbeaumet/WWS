@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="create_product.css">
+    <link rel="stylesheet" href="../global_style.css">
+    <title>Page création produit</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+       
+</head>
+<body>
+
+
+    <header>
+   
+        <div class="header">
+            <img src="../logo.png" alt="logo">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 w-100 col-lg-8 col-md-5 bordure">
+                        <h1>World Wide Sneakers</h1>
+                        <h2> Buy & Sell Your Sneakers </h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-5">
+
+                <div class="block">
+            
+                    <form action="../sneakers.php" method="post">
+                    <!-- Formulaire de création d'un produit sur le site et de son ajout -->
+                    <!-- Ajouter le rectangle d'ajout d'image avec prévisualisation de l'image-->
+            
+                        <div class="title_form">
+                            <h2>Création produit</h2>
+                        </div>
+            
+                        <div id="marge_form">
+                            <label  class="marge">Nom du modèle:</label>
+                            <input type="text" id="brand" class="size_input_brand" name="name">
+                        </div>
+            
+                        <div id="marge_form">
+                            <label class="marge">Taille:</label>
+                            <input class="size_input_size" id="size" type="text" name="size">
+                        </div>
+            
+                        <div id="marge_form">
+                            <label>Couleurs:</label>
+                            <input class="size_input_color" id="color" type="text" name="color">
+                        </div>
+            
+                        <div id="marge_form">
+                                <label>Etat:</label>
+                                <input class="size_input_state" id="state" type="text" name="state">
+                        </div>
+            
+                        <div id="marge_form">
+                            <label>stock:</label>
+                            <input type="text" class="size_input_stock" id="stock" name="stock">
+                        </div>
+            
+                        <div id="marge_form">
+                            <label>prix:</label>
+                            <input type="text" class="size_input_price" id="price" name="price">
+                        </div>
+            
+                        <div id="marge_form">
+                            <label for="image_produit">Image</label>
+                            <input type="file" id="image" name="image_produit">
+                        </div>
+            
+                        <div id="marge_form">
+                            <input id="sauvegarde" type="submit" value="Met en ligne ton article">
+                        </div>
+            
+                    </form>
+            
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="create_product.js"></script>
+
+    <footer>
+        <p>&copyWWS</p>
+    </footer>
+    
+</body>
+</html>

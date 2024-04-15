@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Tableau Utilisateur</title>
+    <link rel="stylesheet" href="../../global_style.css">
+    <link rel="stylesheet" href="admin_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="../../auth.js"></script>
+</head>
+
+<body>
+    <script src="users.js"></script>
+
+    <header>
+        <h1>Tableau de gestion des utilisateurs</h1>
+    </header>
+
+
+    <table>
+        <tr>
+            <th class="th_firstname">Nom</th>
+            <th class="th_lastname">Prénom</th>
+            <th class="th_user_name">Username</th>
+            <th class="th_email">Email</th>
+            <!-- <th class="mdp">Mot de passe</th> -->
+            <th class="newsletter">Newsletter</th>
+            <th class="th_modify">Modifier</th>
+            <th class="th_delete">Supprimer</th>
+        </tr>
+
+        <tr class="t-body"></tr>
+        </tr>
+
+    </table>
+
+
+    <!-- formulaire de modification d'information de compte a mettre au momant du js-->
+<!-- 
+    <form methode="post">
+
+        <div  class = "form_saisi" class="style_form">
+            <label for="name">Prenom: </label>
+            <input class="style_form" colorText="white" required type="text" class="size_block_nickname" id="firstname" name="user_name">
+        </div>
+
+        <div  class = "form_saisi" class="style_form"> 
+            <label for="name">Nom: </label>
+            <input class="style_form" colorText="white" required type="text" class="size_block_name" id="lastname" name="user_name">
+        </div>
+
+        <div  class = "form_saisi" class="style_form">
+            <label for="name">nom d'utilisateur : </label>
+            <input class="style_form"  colorText="white" required type="text" class="size_block_username" id="username" name="user_name">
+        </div>
+
+        
+        <div class = "form_saisi" >
+            <label for="name">e-mail : </label>
+            <input class="style_form" colorText="white" required type="text" id="email" name="user_name">
+        </div>
+
+        <div  class = "form_saisi">
+            <label for="name">Mot de passe : </label>
+            <input class="style_form" colorText="white" required type="password" class="size_block_mdp" id="pwd" name="user_name">
+        </div>
+
+        <div class = "form_saisi" class="marge_save">
+            <input id="sauvegarde" type="submit" value="Inscrivez-vous">
+        </div>
+
+    </form> -->
+
+
+    <script src="users.js"></script>
+</body>
+</html>
